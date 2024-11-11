@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+/* for the aks page */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#outer-form{
+  width: 400px;
+}
+
+#answer-input {
+  width: 83%;
+}
+
+/* for the answer page */
+
+#answer-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#question-block{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.answer-block{
+  padding: 5px 5px;
+  width: 350px;
+  background-color: rgb(236, 198, 128);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+#link{
+  width: 350px;
+}
